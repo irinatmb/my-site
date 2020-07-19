@@ -480,10 +480,30 @@ footer div {
   text-align: center;
   font-size: 15px;
 }
+h2 {
+  font-size: 30px;
+}
+#rooms {
+  font-size: 17px;
+}
+#rooms img {
+  width: 140px;
+}
+#rooms table {
+  margin: 20px 5px;
+}
+#rooms td {
+  padding: 10px 0;
+  font-size: 14px;
+}
+#prices {
+  font-size: 10px;
+}
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .menu {
+    display: block;
     position: relative;
     width: 100%;
   }
@@ -543,5 +563,21 @@ footer div {
     margin: 20px;
     text-align: center;
     font-size: 15px;
+  }
+  #rooms {
+    width: 100%;
+  }
+  #rooms table {
+    margin: 20px 5px;
+  }
+  #rooms td {
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  #rooms img {
+    width: 350px;
+  }
+  #prices {
+    font-size: 20px;
   }
 }
