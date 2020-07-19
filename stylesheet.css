@@ -482,7 +482,7 @@ footer div {
 }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 1024px) {
   .menu {
     position: relative;
     width: 100%;
