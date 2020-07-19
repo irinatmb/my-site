@@ -414,7 +414,7 @@ h3 {
   margin-top: 50px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
 .menu {
   position: relative;
   width: 100%;
