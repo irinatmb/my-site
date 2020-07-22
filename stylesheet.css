@@ -1,8 +1,14 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Open Sans";
+  src: url("fonts/opensans.woff") format("woff");
+}
+
 body {
   padding: 0;
   margin: 0;
   height: 100%;
-  font-family: sans-serif;
+  font-family: Open Sans, sans-serif;
 }
 
 .menu {
@@ -10,9 +16,9 @@ body {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	background-image: linear-gradient(#0F0B39, #271B91);
-	paggind: 10px 15px;
-  z-index: 1;
+	background-image: linear-gradient(#0F01CD, #E0DEFD);
+	z-index: 1;
+  width: 100%;
 }
 
 .menu li {
@@ -23,23 +29,21 @@ body {
 .menu a {
 	text-decoration: none;
 	border: 2px solid white;
-	color: yellow;
+	color: white;
 	font-size: 20px;
 	padding: 10px 15px;
 	border-radius: 5px;
 	box-shadow: 3px 3px 3px 0 #2333C3;
 	font-weight: bold;
-	background-color: rgb(255, 0, 0);
+	background-image: linear-gradient(#C910F7, #E68AFD);
 }
 
 .menu a:hover {
   color: white;
-	background-image: linear-gradient(#0F0B39, #271B91);
+	background-image: linear-gradient(#0F01CD, #E0DEFD);
 }
 
 .menu .tel {
-	background-color: yellow;
-	color: red;
 	margin-left: 190px;
   margin-right: 40px;
 }
@@ -64,8 +68,8 @@ height: 1000px;
 	font-size: 65px;
 	float: right;
 	border: 5px solid white;
-	border-radius: 5px;
-	background-color: rgba(255, 0, 0, 0.9);
+	border-radius: 15px;
+	background-image: linear-gradient(#0F01CD, #C910F7);
 	margin-right: 50px;
   margin-top: 160px;
 	padding: 15px;
@@ -77,15 +81,17 @@ height: 1000px;
 }
 
 .sin {
-  color: #271B91;
+  color: #C910F7;
+  font-weight: bold;
 }
 
 .part1 .slova .sec {
+  color: white;
 	font-size: 30px;
 	float: right;
 	border: 5px solid white;
-	border-radius: 5px;
-	background-color: rgba(255, 0, 0, 0.9);
+	border-radius: 15px;
+	background: linear-gradient(#0F01CD, #C910F7);
 	margin-right: 50px;
 	padding: 15px;
 	text-align: center;
@@ -122,7 +128,7 @@ height: 1000px;
 }
 
 #mesto {
-	background-image: linear-gradient(#0F0B39, #271B91);
+	background-image: linear-gradient(#0F01CD, #E0DEFD);
 	color: white;
 	font-size: 35px;
 	font-weight: bold;
@@ -144,6 +150,7 @@ height: 1000px;
 
 .minut {
   font-size: 25px;
+  color: #0F01CD;
 }
 
 #vam {
@@ -157,7 +164,7 @@ height: 1000px;
 }
 
 footer {
-  background-image: linear-gradient(#0F0B39, #271B91);
+  background-image: linear-gradient(#C910F7, #0F01CD);
   margin-top: -20px;
   color: white;
   font-size: 20px;
@@ -290,7 +297,7 @@ h3 {
 }
 
 #conditions {
-  background-image: linear-gradient(#271B91, #0F0B39);
+  background-image: linear-gradient(#271B91, #C910F7);
   color: white;
   font-size: 25px;
   font-weight: bold;
@@ -301,14 +308,13 @@ h3 {
 }
 
 #rooms {
-  background-image: linear-gradient(#271B91, #0F0B39);
-  color: white;
+  background-image: linear-gradient(#E0DEFD, #0F01CD);
+  color: #0F01CD;
   font-size: 25px;
   font-weight: bold;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-bottom: 10px;
 }
 
 #rooms a {
@@ -317,8 +323,7 @@ h3 {
 }
 
 #rooms a:hover {
-  color: yellow;
-  border: 10px solid red;
+  color: black;
 }
 
 #rooms table {
@@ -326,13 +331,24 @@ h3 {
 }
 #rooms td {
   padding: 20px 50px;
+  background-image: linear-gradient(#0F01CD, #C910F7, #0F01CD);
 }
 
 #rooms img {
-  width: 450px;
+  width: 400px;
 }
+
+#rooms a .pronomer {
+  font-size: 20px;
+}
+
+#rooms .podnomer {
+  width: 500px;
+
+}
+
 #nomermain {
-    background-image: linear-gradient(#271B91, #0F0B39);
+    background-image: linear-gradient(#0F01CD, #E0DEFD);
     color: white;
     text-align: center;
     padding-top: 50px;
